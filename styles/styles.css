@@ -44,6 +44,69 @@ body {
 
 /*///////////// 3.1 Header /////////////*/
 
+input, button {
+    margin: 0;
+}
+
+header {
+    background-image: url("/assets/images/mountains.jpg");
+    background-size: cover;
+    background-position: 25% 75%;
+}
+
+
+.header-container {
+    max-width: 1000px;
+    text-align: center;
+    margin: 0px auto 100px auto;
+    padding-top: 80px;
+    height: 100vh;
+}
+
+.header-container h1 {
+    font-size: 130px;
+    color: #1C2B32;
+}
+
+.header-container p {
+    font-size: 18px;
+    color: #1C2B32;
+}
+
+.header-container form {
+    padding-top: 30px;
+}
+
+.header-container form input {
+    font-size: 20px;
+    color: #1C2B32;
+    width: 350px;
+    padding: 25px 30px;
+    border-color: #1C2B32;
+    border: 2px solid #1C2B32;
+    border-radius: 50px 0 0 50px;
+    margin-right: -10px;
+    background-color: transparent;
+}
+
+.header-container form input::placeholder {
+    color: #1C2B32;
+    font-weight: 100;
+}
+
+.header-container button {
+    font-size: 20px;
+    font-weight: 500;
+    width: 270px;
+    border: none;
+    background-color: #1C2B32;
+    color: #fff;
+    padding: 25px 0;
+    border-color: #1C2B32;
+    border: 2px solid #1C2B32;
+    border-radius: 0 50px 50px 0;
+}
+
 
 
 /*///////////// 3.2 Testimonial /////////////*/
